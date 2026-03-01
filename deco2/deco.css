@@ -5,7 +5,7 @@
   overflow-x:scroll; /* Hides the parts outside the container */
   overflow-y: hidden;
   max-height: 1000px;
-  position: static; /* Needed for absolute positioning of the image, if used */
+  position: relative; /* Needed for absolute positioning of the image, if used */
 
 }
    
