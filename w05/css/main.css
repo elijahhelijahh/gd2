@@ -155,5 +155,14 @@ footer {
 
 
 
+.album-thumbs {
+    padding-top: 1rem;
+}
+
+.thumbnail,
+thumbnail img {
+    max-width: 800px;
+
+}
 
 
