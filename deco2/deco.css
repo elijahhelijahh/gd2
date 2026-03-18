@@ -118,25 +118,40 @@
 
 .deco-type {
     width: auto;
-    height: 600px;
+    height: auto;
     position: absolute;
     scale: 80%;    
+    margin-top: 20rem;
+    x: 10rem;
 }
 
+.deco-type1 {
+    width: auto;
+    position: relative;
+    scale: 80%;
+    left: -90px;
+    top: 300px;
+   
+    
+}
 .deco-type2 {
     width: auto;
-    height: 60px;
-    position: absolute;
-    scale: 10%;    
+    position: relative;
+    scale: 15%;
+    top: -1100px;
+    rotate: 120deg;
+    left: 150px;
+   
+    
 }
 
 .deco-type3 {
     width: auto;
-    height: 60px;
-    position: absolute;
-    scale: 80%;    
-    left: 30%;
-    top: 600px;
+    position: relative;
+    scale: 70%;    
+    top: -1800px;
+    left: 28rem;
+    
 }
 
 button {
@@ -287,5 +302,29 @@ body:not(.deco-home):not(.deco-p2):not(.deco-p3-0):not(.deco-p3-2)::before {
 
     opacity: 0.5; /* 👈 change this */
     z-index: -1;
+    
+}
+
+/* p2, scantron*/
+body:not(.deco-home):not(.deco-p2):not(.deco-p3-1):not(.deco-p3-2) {
+    position: relative;
+    background-color: rgb(242, 191, 242);
+}
+
+/* background layer */
+body:not(.deco-home):not(.deco-p3-1):not(.deco-p3-0):not(.deco-p3-2)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("/deco2/scantron\ sheet.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    opacity: 1; /* 👈 change this */
+    z-index: -1;
+    
     
 }
