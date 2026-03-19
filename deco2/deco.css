@@ -487,7 +487,7 @@ body:not(.deco-home):not(.deco-p2):not(.deco-p3-1):not(.deco-p3-2) {
 }
 
 /* background layer */
-body:not(.deco-home):not(.deco-p3-1):not(.deco-p3-0):not(.deco-p3-2)::before {
+body:not(.deco-home):not(.deco-p3-1):not(.deco-p3-0):not(.deco-p3-2):before {
     content: "";
     position: fixed;
     inset: 0;
