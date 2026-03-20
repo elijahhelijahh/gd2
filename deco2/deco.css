@@ -488,7 +488,7 @@ body:not(.deco-home):not(.deco-p2):not(.deco-p3-0):not(.deco-p3-2)::before {
     position: fixed;
     inset: 0;
 
-    background-image: url("/deco2/rosey wallpaper.jpg");
+background-image: url("../deco2/rosey wallpaper.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
