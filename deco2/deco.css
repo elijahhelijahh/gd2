@@ -47,6 +47,25 @@
     white-space: nowrap;
 }
 
+h4 { /*home-what is deco*/
+    y: static;
+    x: 50%;
+    text-align:left;
+    letter-spacing: 0.8rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30pt;
+    text-transform: uppercase;
+}
+
+.text-overlay2 {
+    position: absolute;
+    bottom: 70%;
+    left: 35%;
+    /*transform: translate(-50%, -50%);*/
+    text-align: left;
+    
+}
+
  .crop-container2 {
   width: fit-content; /* Desired width of the cropped area */
   height: 200%; /* Desired height of the cropped area */
@@ -310,11 +329,11 @@ ul {
 
 }
 
-.mats2 {
+.desc {
     margin-left: 50%;
     margin-right: 5%;
     padding: 10px; /* Space between the text and the border */
-    background-color: aquamarine;
+    background-color: rgb(255, 204, 127);
 
 }
 
