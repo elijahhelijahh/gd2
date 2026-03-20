@@ -548,3 +548,16 @@ body:not(.deco-p2):not(.deco-p3-1):not(.deco-p3-0):not(.deco-p3-2)::before {
     
     
 }
+
+/* 
+
+
+folders:
+
+1. file.png - this is in the same folder as this file
+2. image/file.png - this is in a folder called "image" that is in the same folder as this file
+3. ../image/file.png - this is a folder one level higher than this file
+
+
+around 500 kb pic??- test- should not take more than a few secs
+*/
